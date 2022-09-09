@@ -22,7 +22,7 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 1 click submit button
 _ pick a random fortune
 _ remove the input, submit button, and 8 ball img
-_ display the fortune div
+_ display the fortune p
 _ display a try again button
 
 2 click tempt fate button
