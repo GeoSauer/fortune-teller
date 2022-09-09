@@ -25,15 +25,22 @@
         <main>
             <div id="input-container">
                 <label for="question">
-                    <input type="text" name="question" id="question" />
-                    <button id="ask">What does your soul inquire...?</button>
+                    <input
+                        type="text"
+                        name="question"
+                        id="question"
+                        placeholder="What does your soul inquire...?"
+                    />
+                    <button id="ask">Submit</button>
                 </label>
-                <img src="./assets/magic-8-ball.png" alt="magic 8 ball" />
+                <div>
+                    <img src="./assets/magic-8-ball.png" alt="magic 8 ball" />
+                </div>
             </div>
-            <div id="fortune-container">
+            <div id="fortune-container" class="hide">
                 <h1>Behold, your fate!</h1>
                 <p id="fortune"></p>
-                <button id="reset">Tempt the Fates?</button>
+                <button id="reset">Care to try again?</button>
             </div>
         </main>
 
