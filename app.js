@@ -7,7 +7,7 @@ const fortuneContainer = document.getElementById('fortune-container');
 askButton.addEventListener('click', () => {
     const randNum = Math.floor(Math.random() * answers.length);
     fortune.textContent = answers[randNum];
-
+    question.value = '';
     inputContainer.classList.toggle('hide');
     fortuneContainer.classList.toggle('hide');
 });
@@ -18,6 +18,7 @@ resetButton.addEventListener('click', () => {
 });
 
 const fortune = document.getElementById('fortune');
+const question = document.getElementById('question');
 
 const answers = [
     'Yes, definitely',
