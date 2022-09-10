@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="icon" type="image/x-icon" href="/assets/alchemy-favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&family=Titillium+Web:wght@200;400;600&display=swap"
+        />
+        <link rel="stylesheet" href="/styles/reset.css" />
+        <link rel="stylesheet" href="/styles/global.css" />
+        <title>Web App</title>
+    </head>
+    <!-- <style id="background">
+        body {
+            background-image: url('./assets/tent.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style> -->
+    <body>
+        <header>
+            <img src="/assets/html_css_js.png" />
+            <h1>Abandon all hope ye who enter here</h1>
+        </header>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" type="image/x-icon" href="/assets/alchemy-favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&family=Titillium+Web:wght@200;400;600&display=swap">
-    <link rel="stylesheet" href="/styles/reset.css" />
-    <link rel="stylesheet" href="/styles/global.css" />
-    <title>Web App</title>
-</head>
+        <main>
+            <div id="input-container" class="'input-container">
+                <label for="question">
+                    <input
+                        type="text"
+                        name="question"
+                        id="question"
+                        placeholder="What does your soul inquire...?"
+                    />
+                    <button id="ask">Submit</button>
+                </label>
+                <div>
+                    <img src="./assets/magic-8-ball.png" alt="magic 8 ball" />
+                </div>
+            </div>
+            <div id="fortune-container" class="hide">
+                <h1>Behold, your fate!</h1>
+                <p id="fortune"></p>
+                <button id="reset">Care to try again?</button>
+            </div>
+        </main>
 
-<body>
-    <header>
-        <img src="/assets/html_css_js.png">
-        <h1>Web App</h1>
-    </header>
+        <footer>&copy;2022 Software Developer</footer>
 
-    <main>
-
-    </main>
-
-    <footer>&copy;2022 Software Developer</footer>
-
-    <script type="module" src="app.js"></script>
-</body>
-
+        <script type="module" src="app.js"></script>
+    </body>
 </html>
